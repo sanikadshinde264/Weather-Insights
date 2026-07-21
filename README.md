@@ -44,7 +44,7 @@ This project has no static dataset — all weather data is fetched live from the
 
 ---
 
-## ⚙️ Methods / Methodology
+## ⚙️ Methods 
 1. **Data fetching:** `App.js` builds an OpenWeatherMap request URL (by city name or lat/lon) and calls it with `fetch`, handling loading and error states via React state hooks.
 2. **Geolocation:** `getLocalWeather` uses `navigator.geolocation.getCurrentPosition` to grab coordinates and reuses the same fetch helper, falling back to an error message if access is denied or unsupported.
 3. **Weather display:** `components/weather.js` renders the returned data into a weather card — condition icon, temperature, and a detail grid (feels-like, high/low, humidity, wind, pressure).
@@ -83,7 +83,7 @@ Weather-Insights/
 
 ---
 
-## 🖥️ Dashboard / Model / Output
+## 🖥️ Output
 The app runs as a single screen at `http://localhost:3000`:
 - A search bar with **Search** and **📍 Loc** (current location) buttons
 - A weather card showing the city name, condition icon, temperature, and description
