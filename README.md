@@ -1,6 +1,5 @@
 # 🌦️ Weather Insights
 
-## 📝 One-Line Summary
 A responsive React weather app that shows live conditions for any city (or your current location) with an animated real-time temperature trend graph.
 
 ---
