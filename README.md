@@ -137,7 +137,7 @@ npm start
 ### 5. Open the app
 ```
 http://localhost:3000
-```
+
 
 ---
 
